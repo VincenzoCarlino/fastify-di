@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2016"],
+    "paths": {
+      "*": ["src/*"]
+    },
+    "allowJs": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "typeRoots": [
+      "src/Core/Infrastracture/@types/augmentation.ts",
+      "node_modules/@types"
+    ]
+  },
+  "include": ["./src/**/*.ts", "./index.ts"],
+  "exclude": ["node_modules"]
+}
